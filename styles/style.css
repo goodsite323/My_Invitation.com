@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Hachi+Maru+Pop&family=Lobster&display=swap');
+@font-face{
+    font-family:'WellwaitFree Regular';
+    src: url(../styles/fonts/21063.otf);
+}
+*{
+    transition: 2s ease all;
+}
+.text{
+    font-size: 20px;
+    font-family:"Lobster", serif ;
+}
+.start{
+    font-size: 23px;
+    font-family:"Hachi Maru Pop", serif ;
+}
+h1{
+    font-family: 'WellwaitFree Regular', serif;
+    color: blue;
+    font-size: 35px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    height: 130px;
+    width: 100%;
+    background-image: url(../imges/праздник-scaled.webp);
+    background-size: contain;
+   
+}
+.cards{
+    display: flex;
+    gap:42px ;
+    justify-content: center;
+    padding-bottom: 140px;
+    flex-wrap: wrap;
+
+}
+.card{
+    padding:50px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #EDEDED;
+    max-width: 362px;
+    width: 100%;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow:0px 80px 250px gray;
+}
+.h11{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom:36px ;
+    color: #313131;
+}
+.img{
+    height: 300px;
+    width: 400px;
+}
+
+.link{
+    color: blue;
+    font-size: 20px;
+}
+
+a:hover{
+    font-weight: 700;
+    color: aqua;
+}
